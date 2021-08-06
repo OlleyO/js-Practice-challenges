@@ -17,3 +17,5 @@ const missingLetter = (string = "") => {
 
   return "No Missing Letter";
 };
+
+export default missingLetter;

@@ -11,3 +11,5 @@ const sortIt = (arr = []) => {
     }
   });
 };
+
+export default sortIt;

@@ -5,3 +5,5 @@ const pentagonal = (num) => {
     return "Number must be n >= 1";
   }
 };
+
+export default pentagonal;

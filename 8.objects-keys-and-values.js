@@ -4,3 +4,5 @@ const keysAndValues = (obj = {}) => {
   const objSortedKeys = Object.keys(obj).sort();
   return [objSortedKeys, Object.values(obj)];
 };
+
+export default keysAndValues;

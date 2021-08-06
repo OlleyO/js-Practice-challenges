@@ -4,3 +4,5 @@ const countTrue = (array = []) => {
   console.log("Boolean array: ", convertedToBoolean);
   return convertedToBoolean.filter((elem) => elem === true).length;
 };
+
+export default countTrue

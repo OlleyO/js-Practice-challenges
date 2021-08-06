@@ -7,3 +7,5 @@ const trace = (array) => {
 
   return traceVal;
 };
+
+export default trace;

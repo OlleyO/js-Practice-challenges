@@ -9,3 +9,5 @@ const tempConversion = (celciusVal = 0) => {
 
   return [fahrenheitVal, kelvinVal];
 };
+
+export default tempConversion;

@@ -12,3 +12,5 @@ const hasHiddenFee = (priceArr, total) => {
 
   return totalWithNoDollarSign > cheque ? true : false;
 };
+
+export default hasHiddenFee;

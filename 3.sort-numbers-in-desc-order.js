@@ -5,3 +5,5 @@ const sortDescending = (num = 0) => {
   const sortedStringArr = splittedNumArr.sort((a, b) => b - a);
   return Number(sortedStringArr.join(""));
 };
+
+export default sortDescending;

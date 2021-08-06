@@ -5,3 +5,5 @@ const jazzify = (arr = [], number = 7) => {
     elem.endsWith(number) ? elem : elem.concat(number)
   );
 };
+
+export default jazzify

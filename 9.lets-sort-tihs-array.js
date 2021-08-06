@@ -25,3 +25,5 @@ const ascDesNone = (arr = [], str = "None") => {
 
   return resArr;
 };
+
+export default ascDesNone;

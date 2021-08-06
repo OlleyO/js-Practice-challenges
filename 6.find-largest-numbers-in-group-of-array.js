@@ -8,3 +8,5 @@ const findLargestNums = (arr = []) => {
 
   return maxArr;
 };
+
+export default findLargestNums;

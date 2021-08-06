@@ -6,3 +6,5 @@ const sortFunc = (elem1, elem2) => {
 const sortByLength = (arrayOfStrings = []) => {
   return arrayOfStrings.sort(sortFunc);
 };
+
+export default sortByLength;
