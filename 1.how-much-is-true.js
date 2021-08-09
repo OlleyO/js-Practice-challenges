@@ -5,4 +5,11 @@ const countTrue = (array = []) => {
   return convertedToBoolean.filter((elem) => elem === true).length;
 };
 
-export default countTrue
+// or using reduce
+export const countTrueAlternative = (array = []) => {
+  return array.reduce((prev, curr = 0) => {
+    return !!curr ? prev + 1 : prev;
+  }, 0);
+};
+
+export default countTrue;

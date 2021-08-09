@@ -1,4 +1,4 @@
-import countTrue from "./1.how-much-is-true.js";
+import countTrue, { countTrueAlternative } from "./1.how-much-is-true.js";
 import jazzify from "./2.instant-jazz.js";
 import sortDescending from "./3.sort-numbers-in-desc-order.js";
 import sortByLength from "./4.sort-array-by-string-length.js";
@@ -24,6 +24,10 @@ console.log("1. How much is true");
 console.log(countTrue([true, false, false, true, false]));
 console.log(countTrue([false, false, false, false]));
 console.log(countTrue([]));
+console.log("Alternative:");
+console.log(countTrueAlternative([true, false, false, true, false]));
+console.log(countTrueAlternative([false, false, false, false]));
+console.log(countTrueAlternative([]));
 
 // 2.Instant JAZZ
 console.log("2. Instant JAZZ");
